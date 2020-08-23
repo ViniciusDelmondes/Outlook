@@ -1,0 +1,402 @@
+.container {
+    margin: 0;
+}
+
+.container{
+    background-color: #2d5cad;
+    width: 380px;
+    height: 766px;
+    opacity: 0.85;
+}
+
+
+
+
+/* ___ header */
+
+.title {
+    font-size: 14px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 28px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+/* Botão menulist */
+
+.btn-menu {
+    background-color: #2d5cad;
+    
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-color: none;
+    border: none;
+    outline: 0;
+}
+
+.btn-image-menu{
+    width: 30px;
+}
+
+
+
+
+
+
+/* Div novo e-mail */
+
+.new_email{
+    background-color: #2d5cad;
+    color: white;
+    margin-top: 25px;
+    height: 55px;
+    
+
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 23px;
+    padding-top: 15px;
+
+    cursor: pointer;
+
+    transition: 1s;
+}
+
+.new_email:hover{
+    background-color: #4b6bab;
+}
+
+.image-add{
+    width: 25px;
+    margin-right: 18px;
+    margin-left: 30px;
+}
+
+
+
+/* Div contas */
+
+.contas{
+    background-color: #2d5cad;
+    color: white;
+    margin-top: 5px;
+    height: 55px;
+    
+
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 23px;
+    padding-top: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 1s;
+}
+
+.contas p{
+    font-weight: initial;
+}
+
+.image-user {
+    width: 25px;
+    margin-right: 18px;
+    margin-left: 30px;
+}
+
+/* Sub div contas */
+
+.contas_email {
+    background-color: #2d5cad;
+    border-left: solid 6px white;
+    margin-top: 28px;
+    margin-left: 5px;
+    height: 70px;
+
+    transition: 1s;
+
+    cursor: pointer;
+
+}
+
+.contas_email:hover{
+    background-color: #4b6bab;
+}
+
+.contas_email h1{
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-left: 60px;
+    padding-top: 8px;
+}
+
+.contas_email p{
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Div Pastas */
+
+.pastas{
+    background-color: #2d5cad;
+    color: white;
+    margin-top: 100px;
+    height: 55px;
+    
+
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 23px;
+    padding-top: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 1s;
+}
+
+.image-pastas{
+    width: 25px;
+    margin-right: 18px;
+    margin-left: 30px;
+}
+
+/* Sub div pastas */
+
+.pastas_caixa{
+    background-color: #2d5cad;
+    border-left: solid 6px white;
+    margin-top: 28px;
+    margin-left: 5px;
+    height: 50px;
+
+    transition: 1s;
+
+    cursor: pointer;
+}
+
+.pastas_caixa:hover{
+    background-color: #4b6bab;
+}
+
+.pastas_caixa h1{
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-left: 60px;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+/* Avisos */
+
+.warning-container{
+    background-color: #4b6bab;
+    margin-top: 208px;
+    width: 380px;
+    height: 70px;
+}
+
+.warning-items{
+    color: white;
+    position: absolute;
+    margin-top: -40px;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 50px;
+
+}
+
+.btn-image-mobile{
+    width: 30px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer divs options */
+
+.emailmain{
+    background-color: #2d5cad;
+    width: 60px;
+    height: 55px;
+
+    transition: 0.5s;
+
+    cursor:pointer;
+}
+
+.emailmain:hover{
+    background-color: #4b6bab;
+}
+
+.image-emailmain{
+    width: 30px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.schedule{
+    background-color: #2d5cad;
+    width: 85px;
+    height: 55px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -55px;
+
+    transition: 0.5s;
+
+    cursor:pointer;
+}
+
+.schedule:hover{
+    background-color: #4b6bab;
+}
+
+.image-schedule{
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+.pessoas{
+    background-color: #2d5cad;
+    width: 85px;
+    height: 55px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -55px;
+
+    transition: 0.5s;
+
+    cursor: pointer;
+}
+
+.pessoas:hover{
+    background-color: #4b6bab;
+}
+
+.image-pessoas{
+    width: 30px;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.ticked{
+    background-color: #2d5cad;
+    width: 65px;
+    height: 55px;
+    position: absolute;
+    margin-left: 195px;
+    margin-top: -55px;
+
+    transition: 0.5s;
+
+    cursor: pointer;
+}
+
+.ticked:hover{
+    background-color: #4b6bab;
+}
+
+.image-ticked{
+    width: 30px;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.config{
+    background-color: #2d5cad;
+    width: 65px;
+    height: 55px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -55px;
+
+    transition: 0.5s;
+
+    cursor: pointer;
+}
+
+.config:hover{
+    background-color: #4b6bab;
+}
+
+.image-config{
+    width: 30px;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+
+
+
+
+.clickeffect{
+    background-color: #042b6e;
+}
+
+.more_folders{
+    background-color: #2d5cad;
+    margin-top: 28px;
+    margin-left: 67px;
+    height: 50px;
+    font-size: 10px;
+
+    transition: 1s;
+
+    cursor: pointer;
+}

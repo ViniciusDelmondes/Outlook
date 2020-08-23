@@ -1,0 +1,176 @@
+* {
+    margin:0px;
+}
+
+.containermain{
+    position: absolute;
+    background-color: #D3D3D3;
+    margin-top: -768px;
+    margin-left: 380px;
+    width: 545px;
+    height: 770px;
+
+    border-right: solid 1px #A9A9A9;
+
+    overflow-y: scroll;
+}
+
+.header{
+    padding-top: 15px;
+    position: fixed;
+    background-color: #D3D3D3;
+    z-index: 9999;
+
+    width: 538px;
+    height: 170px;
+    
+
+}
+
+.header input{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 300px;
+    height: 40px;
+
+    border: solid 1px grey;
+    border-radius: none;
+    background-color: #fff;
+    outline: 0;
+
+    background-image: url('../assets/icons/procurar.svg');
+    background-repeat: no-repeat;
+    background-position: 270px;
+    background-size: 20px;
+}
+
+.btn-search{
+    margin-top: 15px;
+    width: 50px;
+    background-color: #D3D3D3;
+
+    border: none;
+}
+
+.image-search{
+    width: 26px;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+
+.btn-reload{
+    margin-top: 15px;
+    width: 50px;
+    margin-left: 15px;
+    background-color: #D3D3D3;
+
+
+    border: none;
+    outline: 0;
+
+    cursor: pointer;
+}
+
+.image-reload{
+    width: 26px;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+
+.btn-lista{
+    width: 50px;
+    margin-left: 15px;
+    background-color: #D3D3D3;
+
+    border: none;
+    outline: 0;
+
+    cursor: pointer;
+}
+
+.image-lista{
+    width: 26px;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+
+.abas_link {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.abas_link a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+
+    padding-bottom: 12px;
+
+    font-size: 26px;
+    
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.outros{
+    margin-left: 25px;
+}
+
+
+.handleClick{
+    border-bottom: solid 2px #2d5cad;
+    color: #2d5cad;
+}
+
+.data_week{
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+
+    font-weight: 400;
+    font-size: 19px;
+
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:grey;
+    height: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #D3D3D3;
+}
+
+.container-boxItems{
+    margin-top: 200px;
+    z-index: 0;
+}
+
+.btn-filtrar{
+    width: 110px;
+    height: 30px;
+    position: absolute;
+
+    border: none;
+    margin-left: 130px;
+
+    background: #D3D3D3;
+}
+
+.icon-filtrar{
+    width: 18px;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+.desmarcar{
+    color: black;
+    border: none;
+}
+
+
+
+

@@ -1,0 +1,284 @@
+.container-email{
+    margin-left: 926px;
+    margin-top: -766px;
+    position: absolute;
+
+    overflow-y: scroll;
+
+    background-color: #D3D3D3;
+    width: 780px;
+    height: 768px;
+}
+
+.btn-closed{
+    margin-left: 700px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #D3D3D3;
+
+    border: none;
+    color: black;
+    font-weight: 26px;
+
+    cursor: pointer;
+}
+
+.btn-icon{
+    width: 15px;
+}
+
+.closeEmail{
+    display: none;
+}
+
+.options-topbar{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.responder{
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+
+    margin-left: 175px;
+
+    font-size: 15px;
+
+    border-radius: 18px;
+
+    width: 110px;
+
+    cursor: pointer;
+
+    transition: 1s;
+}
+
+.responder:hover{
+    background-color: #C0C0C0;
+}
+
+
+.icon-responder{
+    width: 22px;
+    
+}
+
+.respondertodos{
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+
+    font-size: 15px;
+
+    margin-left: 15px;
+    
+    
+
+    border-radius: 18px;
+
+    cursor: pointer;
+
+    transition: 1s;
+}
+
+.respondertodos:hover{
+    background-color: #C0C0C0;
+}
+
+
+.icon-respondertodos{
+    width: 22px;
+    
+}
+
+.encaminhar{
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+
+  
+
+    border-radius: 18px;
+
+    font-size: 15px;
+
+    margin-left: 25px;
+   
+
+    cursor: pointer;
+
+    transition: 1s;
+}
+
+.encaminhar:hover{
+    background-color: #C0C0C0;
+}
+
+
+.icon-encaminhar{
+    width: 22px;
+    
+}
+
+.opcoes{
+
+    margin-left: 45px;
+    
+
+    width: 100px;
+
+    cursor: pointer;
+
+    transition: 1s;
+}
+
+.icon-opcoes{
+    width: 30px;
+    
+}
+
+.content-title-save p{
+    font-size: 18px;
+    margin-top: 15px;
+    color: #2d5cad;
+
+    cursor: pointer;
+}
+
+.body-content-area{
+    margin-top: 200px;
+}
+
+.body-content-area p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+}
+
+.content-attachments{
+    display: flex;
+    flex-direction: row;
+
+    cursor: pointer;
+}
+
+.content-attachments img{
+    margin-top: 15px;
+    width: 200px;
+    height: 140px;
+}
+
+.content-attachments img:hover{
+    border: solid 3px grey;
+}
+
+.content-attachments img:first-child{
+    margin-right: 13px;
+}
+
+.content-attachments img:last-child{
+    margin-left: 13px;
+}
+
+/* Body Email */
+
+.container-bodyEmail {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #D3D3D3;
+    margin-left: 40px;
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.avatar-content img {
+    height: 60px;
+    border-radius: 50%;
+}
+
+.info-email {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.date-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    color: grey
+}
+
+.to-email {
+
+    margin-top: 15px;
+    
+    display: flex;
+    flex-direction: row; 
+}
+
+.to-email h3{
+   font: black; 
+}
+
+.to-email span{
+    color: grey;
+    margin-left: 10px; 
+ }
+
+.assunto-content{
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.icon-open{
+    position: absolute;
+    width: 35px;
+    margin-left: 525px;
+}
+
+.body-area p:first-child{
+    margin-top: 50px;
+
+    text-align: justify;
+
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.body-area p:last-child{
+    margin-top: 250px;
+
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+}
+
+.d-invisibility{
+    display: none;
+}
